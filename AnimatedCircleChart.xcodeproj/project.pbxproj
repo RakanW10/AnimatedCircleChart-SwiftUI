@@ -8,17 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		68F6128F2AF1779C00EA7B7A /* AnimatedCircleChartApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F6128E2AF1779C00EA7B7A /* AnimatedCircleChartApp.swift */; };
-		68F612912AF1779C00EA7B7A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612902AF1779C00EA7B7A /* ContentView.swift */; };
+		68F612912AF1779C00EA7B7A /* CircleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612902AF1779C00EA7B7A /* CircleChartView.swift */; };
 		68F612932AF1779D00EA7B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F612922AF1779D00EA7B7A /* Assets.xcassets */; };
 		68F612962AF1779D00EA7B7A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F612952AF1779D00EA7B7A /* Preview Assets.xcassets */; };
+		68F612A12AF1783400EA7B7A /* MainBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612A02AF1783400EA7B7A /* MainBackground.swift */; };
+		68F612A32AF178D500EA7B7A /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612A22AF178D500EA7B7A /* AppColors.swift */; };
+		68F612A72AF17A0E00EA7B7A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612A62AF17A0E00EA7B7A /* Extensions.swift */; };
+		68F612AC2AF17BCF00EA7B7A /* CircleArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612AB2AF17BCF00EA7B7A /* CircleArc.swift */; };
+		68F612AF2AF17C1000EA7B7A /* AnimatedCircleChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612AE2AF17C1000EA7B7A /* AnimatedCircleChart.swift */; };
+		68F612B22AF17C6100EA7B7A /* ArcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612B12AF17C6100EA7B7A /* ArcModel.swift */; };
+		68F612B52AF21ED800EA7B7A /* CircleChartViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F612B42AF21ED800EA7B7A /* CircleChartViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		68F6128B2AF1779C00EA7B7A /* AnimatedCircleChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedCircleChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F6128E2AF1779C00EA7B7A /* AnimatedCircleChartApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircleChartApp.swift; sourceTree = "<group>"; };
-		68F612902AF1779C00EA7B7A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		68F612902AF1779C00EA7B7A /* CircleChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartView.swift; sourceTree = "<group>"; };
 		68F612922AF1779D00EA7B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F612952AF1779D00EA7B7A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68F612A02AF1783400EA7B7A /* MainBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainBackground.swift; sourceTree = "<group>"; };
+		68F612A22AF178D500EA7B7A /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		68F612A62AF17A0E00EA7B7A /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		68F612AB2AF17BCF00EA7B7A /* CircleArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleArc.swift; sourceTree = "<group>"; };
+		68F612AE2AF17C1000EA7B7A /* AnimatedCircleChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedCircleChart.swift; sourceTree = "<group>"; };
+		68F612B12AF17C6100EA7B7A /* ArcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcModel.swift; sourceTree = "<group>"; };
+		68F612B42AF21ED800EA7B7A /* CircleChartViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleChartViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +65,9 @@
 		68F6128D2AF1779C00EA7B7A /* AnimatedCircleChart */ = {
 			isa = PBXGroup;
 			children = (
-				68F6128E2AF1779C00EA7B7A /* AnimatedCircleChartApp.swift */,
-				68F612902AF1779C00EA7B7A /* ContentView.swift */,
-				68F612922AF1779D00EA7B7A /* Assets.xcassets */,
+				68F6129C2AF177AA00EA7B7A /* SupportingFiles */,
+				68F6129D2AF177D200EA7B7A /* Features */,
+				68F612A52AF179DF00EA7B7A /* Utilities */,
 				68F612942AF1779D00EA7B7A /* Preview Content */,
 			);
 			path = AnimatedCircleChart;
@@ -65,6 +79,85 @@
 				68F612952AF1779D00EA7B7A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68F6129C2AF177AA00EA7B7A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				68F612922AF1779D00EA7B7A /* Assets.xcassets */,
+				68F6128E2AF1779C00EA7B7A /* AnimatedCircleChartApp.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		68F6129D2AF177D200EA7B7A /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				68F6129F2AF1781900EA7B7A /* GlobalComponents */,
+				68F6129E2AF177DC00EA7B7A /* CircleChart */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		68F6129E2AF177DC00EA7B7A /* CircleChart */ = {
+			isa = PBXGroup;
+			children = (
+				68F612B02AF17C4200EA7B7A /* Model */,
+				68F612A92AF17AD600EA7B7A /* ViewModel */,
+				68F612A82AF17AC600EA7B7A /* View */,
+			);
+			path = CircleChart;
+			sourceTree = "<group>";
+		};
+		68F6129F2AF1781900EA7B7A /* GlobalComponents */ = {
+			isa = PBXGroup;
+			children = (
+				68F612A02AF1783400EA7B7A /* MainBackground.swift */,
+			);
+			path = GlobalComponents;
+			sourceTree = "<group>";
+		};
+		68F612A52AF179DF00EA7B7A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				68F612A22AF178D500EA7B7A /* AppColors.swift */,
+				68F612A62AF17A0E00EA7B7A /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		68F612A82AF17AC600EA7B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68F612AA2AF17B6100EA7B7A /* Components */,
+				68F612902AF1779C00EA7B7A /* CircleChartView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68F612A92AF17AD600EA7B7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				68F612B42AF21ED800EA7B7A /* CircleChartViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		68F612AA2AF17B6100EA7B7A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				68F612AB2AF17BCF00EA7B7A /* CircleArc.swift */,
+				68F612AE2AF17C1000EA7B7A /* AnimatedCircleChart.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		68F612B02AF17C4200EA7B7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				68F612B12AF17C6100EA7B7A /* ArcModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +230,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68F612912AF1779C00EA7B7A /* ContentView.swift in Sources */,
+				68F612AC2AF17BCF00EA7B7A /* CircleArc.swift in Sources */,
+				68F612912AF1779C00EA7B7A /* CircleChartView.swift in Sources */,
+				68F612A32AF178D500EA7B7A /* AppColors.swift in Sources */,
+				68F612AF2AF17C1000EA7B7A /* AnimatedCircleChart.swift in Sources */,
+				68F612B52AF21ED800EA7B7A /* CircleChartViewModel.swift in Sources */,
+				68F612A72AF17A0E00EA7B7A /* Extensions.swift in Sources */,
+				68F612B22AF17C6100EA7B7A /* ArcModel.swift in Sources */,
 				68F6128F2AF1779C00EA7B7A /* AnimatedCircleChartApp.swift in Sources */,
+				68F612A12AF1783400EA7B7A /* MainBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

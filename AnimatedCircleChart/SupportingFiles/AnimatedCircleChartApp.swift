@@ -11,7 +11,7 @@ import SwiftUI
 struct AnimatedCircleChartApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CircleChartView()
         }
     }
 }
